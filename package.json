@@ -1,0 +1,33 @@
+{
+  "name": "replit-chunk-store",
+  "version": "1.0.0",
+  "description": "Replit Database chunk store that is abstract-chunk-store compliant",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supersonichub1/replit-chunk-store.git"
+  },
+  "keywords": [
+	  "abstract-chunk-store",
+	  "chunk",
+	  "store",
+	  "replit",
+	  "database"
+  ],
+  "author": "Kyle Williams <kyle.anthony.williams2@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/supersonichub1/replit-chunk-store/issues"
+  },
+  "homepage": "https://github.com/supersonichub1/replit-chunk-store#readme",
+  "dependencies": {
+    "@replit/database": "^2.0.2"
+  },
+  "devDependencies": {
+    "tape": "^5.5.3",
+    "abstract-chunk-store": "^1.5.0"
+  }
+}
